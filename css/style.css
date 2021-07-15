@@ -1,5 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   background-color: #333;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #ff4;
+  letter-spacing: 2px;
+  margin: 70px 0;
+}
+
+section {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.colors {
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+h2 {
+  color: #eb5858;
+  font-size: 40px;
+  text-align: center;
+  margin: 50px;
+  word-spacing: 10px;
+}
+
+h2 span {
+  color: #81deeb;
+  font-size: 24px;
+}
+
+.color {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+.color-1 {
+  background-color: #fff;
+}
+
+.color-2 {
+  background-color: #000;
   color: white;
+}
+
+.color-3 {
+  background-color: #f00;
+}
+
+.color-4 {
+  background-color: blue;
+  color: #fff;
+}
+
+.color-5 {
+  background-color: yellow;
+}
+
+.color-6 {
+  background-color: green;
+}
+
+.color-7 {
+  background-color: aqua;
+}
+
+.color-8 {
+  background-color: magenta;
+}
+
+.font span {
+  font-family: 'MS Gothic';
+  color: #eb5858;
+}
+
+p {
+  text-align: center;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+p:nth-child(1) {
+  font-family: 'times new roman';
+}
+
+p:nth-child(2) {
+  font-family: verdana;
+}
+
+p:nth-child(3) {
+  font-family: arial;
+}
+
+p:nth-child(4) {
+  font-family: helvetica;
+}
+
+p:nth-child(5) {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p:nth-child(6) {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p:nth-child(7) {
+  font-family: 'MS Gothic';
+}
+
+p:nth-child(8) {
+  font-family: Tahoma;
+}
+
+.fonts {
+  border: 1px solid white;
+}
+
+.textStyle span {
+  color: #eb5858;
+  font-weight: bold;
+  font-style: italic;
+}
+
+ul {
+  position: relative;
+  border: 1px solid white;
+}
+
+li {
+  font-size: 36px;
+  position: relative;
+  left: 300px;
+  padding: 10px 0;
+}
+
+li:nth-child(1) {
+  Font-weight: 900;
+}
+
+li:nth-child(2) {
+  font-size: 26px;
+}
+
+li:nth-child(3) {
+  font-style: italic;
 }
 /*# sourceMappingURL=style.css.map */
